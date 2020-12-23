@@ -1,6 +1,6 @@
 const Database = require('better-sqlite3');
 const dbName = "catDatabase.db";
-const myTable = `
+const catTable = `
    CREATE TABLE IF NOT EXISTS cats (
       name varchar(255) UNIQUE PRIMARY KEY,
       age int
@@ -13,7 +13,7 @@ function createNewDatabase () {
 }
 
 function createTheTable () {
-	const createTable = db.prepare(myTable);
+	const createTable = db.prepare(catTable);
 	createTable.run();
 }
 
