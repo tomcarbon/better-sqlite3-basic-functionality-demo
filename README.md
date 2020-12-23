@@ -16,7 +16,7 @@ The theme is 'cats'.
 * npm run start
 * npm run start (again), to display duplicate error handling with 'cat4'.
 
-## notes
+# notes
 
 * Tested on ubuntu 20.04 and 20.20.
 * This will 'npm install' on a pi3/raspbian, but it is sloow. HANG in there.
