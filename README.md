@@ -1,1 +1,0 @@
-# better-sqlite3-basic-functionality-demo
